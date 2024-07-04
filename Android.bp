@@ -8,3 +8,24 @@ soong_namespace {
 	],
 }
 
+install_symlink {
+	name: "bdwlan_bdwlan_symlink",
+	soc_specific: true,
+	installed_location: "firmware/bdwlan.e47",
+	symlink_target: "/vendor/etc/wifi/bdwlan.e47",
+}
+
+install_symlink {
+	name: "bdwlan_bdwlan_symlink_1",
+	soc_specific: true,
+	installed_location: "firmware/bdwlan.e48",
+	symlink_target: "/vendor/etc/wifi/bdwlan.e48",
+}
+
+install_symlink {
+	name: "bdwlan_bdwlan_symlink_2",
+	soc_specific: true,
+	installed_location: "firmware/bdwlan.elf",
+	symlink_target: "/vendor/etc/wifi/bdwlan.elf",
+}
+

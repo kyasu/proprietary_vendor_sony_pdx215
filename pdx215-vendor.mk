@@ -834,3 +834,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pdx215/proprietary/vendor/firmware/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.mdt \
     vendor/sony/pdx215/proprietary/vendor/lib64/camera/com.sony.sensormodule.icarus_imx316.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.sensormodule.icarus_imx316.bin \
     vendor/sony/pdx215/proprietary/vendor/lib64/camera/com.sony.tuned.icarus_imx316.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.tuned.icarus_imx316.bin
+
+PRODUCT_PACKAGES += \
+    bdwlan_bdwlan_symlink \
+    bdwlan_bdwlan_symlink_1 \
+    bdwlan_bdwlan_symlink_2
